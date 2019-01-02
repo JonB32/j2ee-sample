@@ -1,0 +1,21 @@
+<project>
+   <modelVersion>4.0.0</modelVersion>
+   <groupId>root.project</groupId>
+   <artifactId>servlets</artifactId>
+   <packaging>pom</packaging>
+   <name>servlets</name>
+   <parent>
+      <groupId>root</groupId>
+      <artifactId>project</artifactId>
+      <version>1.0</version>
+   </parent>
+   <modules>
+      <module>ejb3-server-war</module>
+      <module>ejb3-server-client-war</module>
+      <module>ejb3-remote-client-0-war</module>
+      <module>ejb3-remote-client-1-war</module>
+      <module>ejb3-remote-client-2-war</module>
+      <module>ejb3-standalone-client</module>
+   </modules>
+</project>
+
