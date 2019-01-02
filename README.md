@@ -1,2 +1,2 @@
-# j2ee-simple
+# j2ee-sample
 J2EE project
