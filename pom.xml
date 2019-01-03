@@ -9,10 +9,10 @@
    <name>project</name>
    <modules>
       <module>projects</module>
-      <module>servlets</module>
-      <module>ejbs</module>
-      <module>ear</module>
       <module>jndi-lookup-util</module>
+      <module>ejbs</module>
+      <module>servlets</module>
+      <module>ear</module>
   </modules>
    <build>
       <pluginManagement>
