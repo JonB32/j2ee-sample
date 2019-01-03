@@ -3,6 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>root.project.ejbs</groupId>
    <artifactId>ejb3-server-api</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
    <packaging>jar</packaging>
    <name>core project classes</name>
    <parent>
