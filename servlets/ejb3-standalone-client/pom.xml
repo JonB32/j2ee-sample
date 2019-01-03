@@ -32,9 +32,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>root.project</groupId>
-      <artifactId>ejb3-server-api</artifactId>
-      </dependency>
+       <groupId>root.project.ejbs</groupId>
+       <artifactId>ejb3-server-api</artifactId>
+       <version>0.0.1-SNAPSHOT</version>
+    </dependency>
     
     <!-- Begin: Possibility 1: This will bring other dependencies which are not necessary in our case (Ex: JMS for Wildfly dependencies...) -->
     <!--

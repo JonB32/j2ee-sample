@@ -37,7 +37,7 @@
          <dependency>
             <groupId>root.project</groupId>
             <artifactId>ejb3-server-api</artifactId>
-            <version>1.0</version>
+            <version>0.0.1-SNAPSHOT</version>
          </dependency>
          <dependency>
             <groupId>root.project.servlets</groupId>
