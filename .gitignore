@@ -1,4 +1,5 @@
 # Eclipse project files
+*.metadata/
 *.project
 *.settings/
 *.classpath
