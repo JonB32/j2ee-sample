@@ -1,2 +1,2 @@
 # j2ee-sample
-J2EE project
+J2EE project 2
