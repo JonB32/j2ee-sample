@@ -29,7 +29,7 @@ pipeline {
               [artifactId: 'ejb3-remote-client-1-war', classifier: '', file: 'servlets/ejb3-remote-client-1-war/target/ejb3-remote-client-1-war-0.0.1-SNAPSHOT.war', type: 'war'],\
               [artifactId: 'ejb3-remote-client-2-war', classifier: '', file: 'servlets/ejb3-remote-client-2-war/target/ejb3-remote-client-2-war-0.0.1-SNAPSHOT.war', type: 'war'],\
               [artifactId: 'ejb3-server-client-war', classifier: '', file: 'servlets/ejb3-server-client-war/target/ejb3-server-client-war-0.0.1-SNAPSHOT.war', type: 'war'],\
-              [artifactId: 'ejb3-server-war', classifier: '', file: 'servlets/ejb3-server-war/target/ejb3-server-war-0.0.1-SNAPSHOT.war', type: 'war'],\
+              [artifactId: 'ejb3-server-war', classifier: '', file: 'servlets/ejb3-server-war/target/ejb3-server-war.war', type: 'war'],\
               [artifactId: 'ejb3-standalone-client', classifier: '', file: 'servlets/ejb3-standalone-client/target/ejb3-standalone-client-0.0.1-SNAPSHOT.jar', type: 'jar']\
             ],\
             credentialsId: 'd2a6dca6-e8a0-4bb4-a7a2-34c1bc572c2b', groupId: 'root.project.servlets', nexusUrl: '34.73.12.137:8081', nexusVersion: 'nexus3', protocol: 'http',\
