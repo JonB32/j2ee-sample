@@ -24,6 +24,11 @@
                   <unzipCommand>/usr/bin/unzip -o &gt; err.txt</unzipCommand>
                </configuration>
             </plugin>
+            <plugin>
+               <groupId>org.wildfly.plugins</groupId>
+               <artifactId>wildfly-maven-plugin</artifactId>
+               <version>2.0.0.Final</version>
+            </plugin>
          </plugins>
       </pluginManagement>
    </build>
