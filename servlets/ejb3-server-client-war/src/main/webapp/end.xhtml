@@ -8,12 +8,10 @@
 <title>Quizzy Quiz : End</title>
 </head>
 <h:body>
-	<h:form id="form">
-		<h:outputText value="#{quizMangedBean.question}" />
-		<h:inputText id="input" value="#{quizMangedBean.answer}" />
-		<h:commandButton value="Answer!" action="#{quizManagedBean.verifyAnswer()}" />
-	</h:form>
-	
-	The number of played quizzes is : <h:outputText value="#{quizManagedBean.playedQuizzesNumber}" />
+	Thank you <h:outputText value="#{quizManagedBean.playerName}" /> for playing :) <br/>
+	Your score is <h:outputText value="#{quizManagedBean.score}" /> <br/>
+	See you sometime again! <br/>
+	<a href="index.xhtml">Play again!</a>
+	The number of played quizzes is : <h:outputText value="#{quizManagedBean.getPlayedQuizzesNumber()}" />
 </h:body>
 </html>

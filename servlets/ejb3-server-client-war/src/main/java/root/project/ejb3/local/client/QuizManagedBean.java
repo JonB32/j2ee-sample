@@ -48,7 +48,7 @@ public class QuizManagedBean {
 		}
 		
 		//--- EJB Lookup in same WAR
-		String moduleName = "ejb3-server-client-war"; // WAR name OR ejb-jar.xml module-name
+		String moduleName = "ejb3-server-client-war-0.0.1-SNAPSHOT"; // WAR name OR ejb-jar.xml module-name
 		String beanName = "QuizBean";
 		String interfaceQualifiedName = ILocalQuiz.class.getName();
 		
@@ -56,9 +56,9 @@ public class QuizManagedBean {
 		LookerUp wildf9Lookerup = new LookerUp();
 		
 		// We could instead the following method by giving the exact JNDI name :
-		// wildf9Lookerup.findSessionBean("java:global/ejb3-server-client-war/QuizBean!root.project.ejb3.server.api.ILocalQuiz");
+		quizProxy = (ILocalQuiz) wildf9Lookerup.findSessionBean("java:global/ejb3-server-client-war-0.0.1-SNAPSHOT/QuizBean!root.project.ejb3.server.api.ILocalQuiz");
 		
-		quizProxy = (ILocalQuiz) wildf9Lookerup.findLocalSessionBean(moduleName, beanName, interfaceQualifiedName);
+		//quizProxy = (ILocalQuiz) wildf9Lookerup.findLocalSessionBean(moduleName, beanName, interfaceQualifiedName);
 		
 		quizProxy.begin(playerName);
 		setQuestion(quizProxy.generateQuestionAndAnswer());
